@@ -13,7 +13,7 @@ export default class Post extends Component {
         />
         <img src={this.props.src} alt={this.props.alt} />
         <div className="post__name">some accaount</div>
-        <div className="post_descr">Random text</div>
+        <div className="post__descr">Random text</div>
       </div>
     );
   }
